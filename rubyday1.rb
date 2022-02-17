@@ -349,10 +349,11 @@
     puts "1. Sing me a song"
     puts "2. Tell me a joke"
     puts "3. Exit"
-    user_choice1 = gets
-    user_choice2 = gets.strip.to_i 
-    p user_choice1
-    p user_choice2
+    user_choice = gets
+    # user_choice1 = gets
+    # user_choice2 = gets.strip.to_i 
+    # p user_choice1
+    # p user_choice2
     if user_choice == 1 
       puts "Hit me baby one more time"
     elsif user_choice == 2
